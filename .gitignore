@@ -1,0 +1,44 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+*.egg
+
+# 打包产物(PyInstaller onedir 等)
+build/
+dist/
+*.spec
+
+# ===== 测试 / 覆盖率 =====
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.cover
+
+# 本仓库测试脚本在项目根临时生成的目录
+.web_test/
+.e2e_tmp/
+treetmp_*/
+cfgtmp_*/
+
+# ===== 本工具运行时生成 =====
+config/
+logs/
+*.tmp
+*.log
+
+# 本地服务器 / 分享内容(自动生成, 不入库)
+devshare/
+scripts/certs/
+shared/
+
+# ===== 编辑器 / 系统 =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
